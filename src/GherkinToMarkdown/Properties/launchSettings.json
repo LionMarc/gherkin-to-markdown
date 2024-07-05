@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GherkinToMarkdown": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Projects\\60_Smusdi\\smusdi-core\\specs\\ D:\\Projects\\60_Smusdi\\smusdi-core\\generated-specs"
+    }
+  }
+}
