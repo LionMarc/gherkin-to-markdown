@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GherkinToMarkdown", "src\GherkinToMarkdown\GherkinToMarkdown.csproj", "{D104A44E-A4F9-4E3F-B9F8-B65978FBB28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smusdi.GherkinToMarkdown", "src\Smusdi.GherkinToMarkdown\Smusdi.GherkinToMarkdown.csproj", "{D104A44E-A4F9-4E3F-B9F8-B65978FBB28F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B64D06CE-F8E0-424C-92B5-1D607F85E440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{64BD3954-8C70-42C5-9519-21A23C416F5B}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64BD3954-8C70-42C5-9519-21A23C416F5B} = {B64D06CE-F8E0-424C-92B5-1D607F85E440}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99234939-8EBA-474C-AD37-731235A1937C}
