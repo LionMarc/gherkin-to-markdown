@@ -14,12 +14,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@v5.0.1
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 10.0.x
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build -c Release --no-restore
     - name: Test packing
-      run: dotnet pack --no-build -c Release -p:PackageVersion=8.0.0.1 -o publish
+      run: dotnet pack --no-build -c Release -p:PackageVersion=10.0.0.1 -o publish

@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/.github/" />
+  <Folder Name="/.github/workflows/">
+    <File Path=".github/workflows/build.yml" />
+    <File Path=".github/workflows/publish.yml" />
+  </Folder>
+  <Project Path="src/Smusdi.GherkinToMarkdown/Smusdi.GherkinToMarkdown.csproj" />
+</Solution>
